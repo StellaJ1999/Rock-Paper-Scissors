@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 3rem;    
+}
+
+.game-window {
+    flex-direction: column;
+}
+
+.score {
+    display: flex;
+    gap: 5rem;
+}
+
+.computer-score,
+.player-score {
+    text-align: center;
+    padding: 1rem;
+}
+
+h2{
+    text-align: center;
+    padding: 1rem;
+}
+
+.score p {
+    text-align: center;
+}
+
+.option-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+button {
+    padding: 0.2rem;
+}
+
+#result {
+text-align: center;
+padding: 1rem;
+}
